@@ -3,6 +3,7 @@ package test;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import sugar.App;
 
 /**
  * Unit test for simple App.
@@ -33,6 +34,7 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
+    	App app = new App();
+        assertTrue( App.theSmaller(12, 102) == 1);
     }
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.AppTest" time="0.035" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.AppTest" time="0.064" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="DE"/>
     <property name="sun.boot.library.path" value="C:\Users\bbking\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\bbking\AppData\Local\Temp\surefire14551997957383211679\surefirebooter16753448453745618911.jar C:\Users\bbking\AppData\Local\Temp\surefire14551997957383211679 2021-12-23T12-50-43_476-jvmRun1 surefire6043779195143732224tmp surefire_02493691123215738282tmp"/>
+    <property name="sun.java.command" value="C:\Users\bbking\AppData\Local\Temp\surefire17009841320622342894\surefirebooter90376623379573903.jar C:\Users\bbking\AppData\Local\Temp\surefire17009841320622342894 2021-12-23T17-15-38_961-jvmRun1 surefire5091191032721265430tmp surefire_07721783256539668377tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Papa\eclipse-wspace\maven-archetype-bonbon-java\target\test-classes;D:\Papa\eclipse-wspace\maven-archetype-bonbon-java\target\classes;C:\Users\bbking\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\bbking\AppData\Local\Temp\surefire14551997957383211679\surefirebooter16753448453745618911.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\bbking\AppData\Local\Temp\surefire17009841320622342894\surefirebooter90376623379573903.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.2+7-27"/>
@@ -55,5 +55,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="testApp" classname="test.AppTest" time="0.003"/>
+  <testcase name="testApp" classname="test.AppTest" time="0.018">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at test.AppTest.testApp(AppTest.java:38)
+</failure>
+  </testcase>
 </testsuite>

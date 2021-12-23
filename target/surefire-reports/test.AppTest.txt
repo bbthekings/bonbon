@@ -1,4 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: test.AppTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in test.AppTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.064 s <<< FAILURE! - in test.AppTest
+testApp(test.AppTest)  Time elapsed: 0.018 s  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at test.AppTest.testApp(AppTest.java:38)
+
