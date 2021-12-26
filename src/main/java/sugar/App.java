@@ -10,6 +10,7 @@ public class App
     {
         System.out.println( theSmaller(23, 230) );
         System.out.println( theSmaller(123, 1230) );
+        System.out.println( theSmaller(128, 5686) );
     }
     
     public static int theSmaller(final int x, final int y) {
