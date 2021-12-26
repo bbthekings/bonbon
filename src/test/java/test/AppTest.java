@@ -35,6 +35,6 @@ public class AppTest
     public void testApp()
     {
     	App app = new App();
-        assertTrue( App.theSmaller(12, 102) == 1);
+        assertTrue( App.theSmaller(12, 102) == 12);
     }
 }
